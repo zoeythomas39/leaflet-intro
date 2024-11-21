@@ -58,4 +58,5 @@ places=[{"Facility":"ALL WOMEN'S HEALTH CENTER OF SARASOTA","StreetAddress":"270
     for (let i = 0; i < places.length; i++) {
         L.marker([places[i].Latitude, places[i].Longitude])
         .bindPopup('<h3>' + places[i].Facility + '</h3>' + '<p>' + places[i].StreetAddress + ', '+ places[i].City+ ', ' + places[i].Zip + '</p>')
-        .addTo(
+        .addTo(map);
+    };

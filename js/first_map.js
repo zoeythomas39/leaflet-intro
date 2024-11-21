@@ -15,4 +15,7 @@ var hearAgain = L.marker([29.650176375893036, -82.32375917439167]).addTo(map);
 uc.bindPopup("<b>University Club</b><br>Gainesville's only LGBTQ+ nightclub");
 karmaCream.bindPopup("<b>Karma Cream</b><br>Vegan café with ice cream, coffee and quick bites");
 howBazar.bindPopup("<b>How Bazar</b><br>Secondhand clothing store and community space");
-depot.bindPopup("<b>Depot
+depot.bindPopup("<b>Depot Park</b><br>Greenspace and lake perfect for picnicking");
+boDiddley.bindPopup("<b>Bo Diddley Plaza</b><br>Soundstage offering free concerts and events");
+lynx.bindPopup("<b>The Lynx</b><br>Independently owned bookstore and coffee shop");
+hearAgain.bindPopup("<b>Hear Again Records</b><br>Record store with new and secondhand vinyls and CDs");
